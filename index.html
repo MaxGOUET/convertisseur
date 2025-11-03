@@ -11,28 +11,26 @@
   <body>
     <div class="page">
       <div>
-        <h1>convertisseur <br />euro / dollar</h1>
+        <h1>convertisseur <br/>euro / dollar</h1>
       </div>
       <div>
         <form class="form">
           <p>
-            <label for="toConvert"></label>
-            <input type="text" id="toConvertValue" name="toConvertValue" />
+            <input
+              type="text"
+              id="toConvertValueOne"
+              name="toConvertValueOne"
+            /> €
           </p>
-          <select name="valueOne" id="valueOne">
-            <option value="euro">euro</option>
-            <option value="dollar">dollar</option>
-          </select>
-          <p id="en">en</p>
-          <select name="valueTwo" id="valueTwo">
-            <option value="dollar">dollar</option>
-            <option value="euro">euro</option>
-          </select>
-          <button type="submit" id="convert">convertir</button>
-        </form>
+          <p>
+            <input
+              type="text"
+              id="toConvertValueTwo"
+              name="toConvertValueTwo"
+            /> $
+          </p>
       </div>
-      <div>
-        <p class="showResult"></p>
+      <div></div>
       </div>
     </div>
   </body>
