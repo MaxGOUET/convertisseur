@@ -1,0 +1,29 @@
+body {
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(247, 248, 247);
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.page {
+  margin: 50px 400px 50px 400px;
+  padding: 50px 50px 50px 50px;
+  background-color: rgb(194, 120, 120);
+  border-radius: 40px;
+}
+
+.showResult {
+  color: black;
+  font-weight: bold;
+}
