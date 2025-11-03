@@ -46,7 +46,7 @@ function autoChangeEuroDollar() {
   });
 
   valueTwo.addEventListener("change", (event) => {
-    if (!(valueTwo.value == "dollar")) {
+    if (valueTwo.value != "dollar") {
       valueOne.value = "dollar";
     } else {
       valueOne.value = "euro";
